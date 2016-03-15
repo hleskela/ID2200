@@ -1,0 +1,55 @@
+hleskela@sport-04:~/Documents/KTH2/ID2200/Lab_2$ ./minishell 
+>pwd
+/afs/nada.kth.se/home/0/u1dpipq0/Documents/KTH2/ID2200/Lab_2
+
+Spawned foreground process pid: 6146
+Foreground process 6146 terminated
+Wallclock time: 0.92 ms
+>cd ..
+>ls
+Backups  digenv  digenv.c  Lab_2  Rapport.odt  SVAR_Frbrdls  test1.txt	test2.txt  test3.txt  test4.txt
+
+Spawned foreground process pid: 6147
+Foreground process 6147 terminated
+Wallclock time: 1.46 ms
+>pwd
+/afs/nada.kth.se/home/0/u1dpipq0/Documents/KTH2/ID2200
+
+Spawned foreground process pid: 6148
+Foreground process 6148 terminated
+Wallclock time: 0.89 ms
+>lshw &
+
+Spawned background process pid: 6149
+>WARNING: you should run this program as super-user.
+PCI (sysfs)  
+>ls
+Backups  digenv  digenv.c  Lab_2  Rapport.odt  SVAR_Frbrdls  test1.txt	test2.txt  test3.txt  test4.txt
+
+Spawned foreground process pid: 6150
+Foreground process 6150 terminated
+Wallclock time: 1.39 ms
+sport-04.csc.kth.se       
+
+
+--
+lshw output omitted
+--
+
+
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+
+>pwd
+Background process 6149 terminated
+/afs/nada.kth.se/home/0/u1dpipq0/Documents/KTH2/ID2200
+
+Spawned foreground process pid: 6151
+Foreground process 6151 terminated
+Wallclock time: 0.92 ms
+>exi
+Could not execute command exi
+
+Spawned foreground process pid: 6152
+Foreground process 6152 terminated
+Wallclock time: 0.40 ms
+>exit

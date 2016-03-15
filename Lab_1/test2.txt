@@ -1,0 +1,8 @@
+CLASSPATH=.:/afs/nada.kth.se/info/syntax05/Cup
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MANPATH=::
+MODULEPATH=/usr/local/Modules/versions:/usr/local/Modules/$MODULE_VERSION/modulefiles:/afs/nada.kth.se/common/usr/local/lib/module/modules
+PATH=/opt/go/default/bin:/opt/sicstus/4.2.1/bin:/pkg/sima/1.0/client:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/afs/nada.kth.se/info/progp12/syntax/bin
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session26

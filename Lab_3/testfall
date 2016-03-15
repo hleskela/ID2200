@@ -1,0 +1,12 @@
+testfall malloc:
+1. 10^6 små block (säg definierade NALLOC stora).
+2. 10^6 stora block (säg 100 gånger NALLOC stora).
+3. 10^6 block blandad storlek.
+
+bashscript, tar för 1000 block och får då 1000 tider att ta medelvärde på, för att undkomma individuella fel och för att minska tidspåverkan från start process, köra kod
+och sedan avsluta process.
+
+Vilken typ av pekare?!?!?!?!?!?!
+
+att tänka på: tidsvinsten kanske inte ses som stor (t.ex. 0.0003 s /1000 för 
+en mallocs körning) men tänk i vilka fall malloc.en kan köras

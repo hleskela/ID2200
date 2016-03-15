@@ -1,0 +1,14 @@
+3. se man sigaction:
+EINVAL An  invalid  signal  was  specified.   This  will also be generated if an attempt is made to change the action for SIGKILL or SIGSTOP, which cannot be caught or ignored.
+
+4. Returns 0 and pid to distinguish between the two identicall processes, the parent (with return pid of child) and the child (return 0)
+
+5. onödigt med duplicerad offset, om fdt har koll på offset så kan två olika fdt's ha olika information till 'samma' fil. Det verkar dessutom suspekt att ta bort
+operativsystemets ft. Dessutom är det fd som håller koll på varifrån och hur filen har öppnats, dvs med open, write eller liknande. Detta skulle behöva lagras på ett alternativt sätt, t.ex. av en resurshanterare av något slag.
+
+6. Nja, du kan strunta i att stänga read, ty då du stänger write så skickas \0 till read som då stängs. Däremot kan du inte stänga read men inte write eller varken 
+read eller write för då ligger write änden öppen och skickar resultat till ingenting eller buffrar. Dock bör man alltid stänga sina pipes.
+
+7. Om en child-process dör så får föräldern ett exit-meddelande ifrån barnet. Därför anropar man wait lika många gånger som fork.
+
+8. 1 = ingen förekomst , större = fel
